@@ -1,0 +1,19 @@
+{
+    "name": "fhir-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@asymmetrik/node-fhir-server-core": "^2.0.7",
+        "crypto": "^1.0.1",
+        "dateformat": "^3.0.3",
+        "jsoning": "^0.8.15",
+        "uuid": "^7.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
